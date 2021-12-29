@@ -1,0 +1,197 @@
+name: elib
+description: An electronic library for federal ministry of transport
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.1+1
+  intro_slider: ^2.3.3
+  flutter_launcher_icons: ^0.8.1
+  rate_my_app: ^0.7.2
+  provider: ^4.3.2+2
+  flutter_form_builder: ^3.14.1
+  flutter_spinkit: ^4.1.2+1
+  dio: ^3.0.10
+  flutter_feather_icons: ^1.0.3
+  mobile_popup: ^1.2.0
+  path_provider: ^1.6.24
+  badges: ^1.1.1
+  awesome_button: ^1.0.2
+  form_builder_file_picker: ^0.3.0
+  desktop_window: ^0.3.0
+  flutter_animator: ^2.1.0
+  getflutter: ^1.1.3
+  clip_shadow: ^0.2.1
+  json_annotation: ^3.0.1
+  rxdart: ^0.24.1
+  flutter_hamburger_scaffold: ^0.1.0+1
+  native_video_view: ^0.3.0
+  intl: ^0.16.1
+  cached_network_image: ^2.3.3
+  universal_platform: ^0.1.3
+  just_audio: ^0.5.6
+  flutter_filereader: ^2.2.0
+  preferences: ^5.2.1
+  translator: ^0.1.5
+  rflutter_alert: ^1.1.0
+  hive: ^1.4.4+1
+  hive_flutter: ^0.3.1
+  fontisto_flutter: ^3.1.2
+  aes_crypt: ^0.1.1
+  percent_indicator: ^2.1.8
+  filepicker_windows: ^1.0.0
+  auto_animated: ^2.1.0
+  folding_cell: ^1.0.0
+  http: ^0.12.2
+  flurry_navigation: ^0.1.2
+  open_file: ^3.0.3
+  native_pdf_view: ^3.9.0
+  flutter_cached_pdfview: ^0.3.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^0.8.2
+  build_runner: ^1.10.6
+  json_serializable: ^3.5.0
+  msix: ^0.1.5
+
+
+flutter_icons:
+  image_path: "assets/images/logo.png"
+  android: true
+  ios: true
+  windows: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logo.png
+    - assets/images/document.png
+    - assets/images/1.jpg
+    - assets/images/1a.jpg
+    - assets/images/2a.jpg
+    - assets/images/3a.jpg
+    - assets/images/4a.jpg
+    - assets/images/5a.jpg
+    - assets/images/2.jpg
+    - assets/images/3.jpg
+    - assets/images/4.jpg
+    - assets/images/5.jpg
+    - assets/images/6.jpg
+    - assets/images/7.jpg
+    - assets/images/t.jpg
+    - assets/images/g.jpg
+    - assets/images/gg.jpg
+    - assets/images/u.jpg
+    - assets/images/ty.png
+    - assets/images/un.png
+    - assets/images/video.png
+    - assets/images/net.png
+    - assets/images/hj.jpg
+    - assets/images/bookcase.png
+    - assets/images/books.png
+    - assets/images/bookshelf.png
+    - assets/images/notes.png
+    - assets/images/reading-book.png
+    - assets/images/settings.png
+    - assets/images/starred.png
+    - assets/images/work-time.png
+    - assets/images/user.png
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Oswald-Regular
+      fonts:
+        - asset: assets/fonts/Oswald-Regular.ttf
+          weight: 100
+    - family: Qhinanttika
+      fonts:
+        - asset: assets/fonts/Qhinanttika.otf
+          weight: 100
+    - family: Lato-Italic
+      fonts:
+        - asset: assets/fonts/Lato-Italic.ttf
+          weight: 500
+    - family: Lato-LightItalic
+      fonts:
+        - asset: assets/fonts/Lato-LightItalic.ttf
+          weight: 100
+    - family: NexaDemo-Bold
+      fonts:
+        - asset: assets/fonts/NexaDemo-Bold.ttf
+          weight: 100
+          style: normal
+    - family: NexaDemo-Light
+      fonts:
+        - asset: assets/fonts/NexaDemo-Light.ttf
+          weight: 100
+          style: normal
+    - family: OpenSans-Bold
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 100
+          style: normal
+    - family: OpenSans-Regular
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 100
+          style: normal
+    - family: OpenSans-SemiBold
+      fonts:
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 100
+          style: normal
+    - family: Proxima-Light
+      fonts:
+        - asset: assets/fonts/Proxima-Light.otf
+          weight: 100
+          style: normal
+    - family: Autobus
+      fonts:
+        - asset: assets/fonts/Autobus.ttf
+          weight: 100
+          style: normal
+    - family: Champagne
+      fonts:
+        - asset: assets/fonts/Champagne-Limousines.ttf
+          weight: 100
+          style: normal

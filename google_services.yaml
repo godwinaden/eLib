@@ -1,0 +1,37 @@
+general:
+  project_id: elib-3f3a5
+  project_number: 958119526423
+  database_url: https://elib-3f3a5.firebaseio.com
+  storage_bucket: elib-3f3a5.appspot.com
+  auth_domain: elib-3f3a5.firebaseapp.com
+  data_collection_enabled: true
+
+android:
+  app_id: 1:958119526423:android:3abefd9438729f2c4f9c52
+  api_key: AIzaSyANF1W-8WwWoS8L5CFlCLY8KaZV1A2xkmw
+  client_id: 958119526423-iaib3vo8fet1s830fisst4g5nd7v5dep.apps.googleusercontent.com
+
+ios:
+  app_id: 1:958119526423:ios:3abefd9438729f2c4f9c52
+  api_key: AIzaSyANF1W-8WwWoS8L5CFlCLY8KaZV1A2xkmw
+  client_id: 958119526423-iaib3vo8fet1s830fisst4g5nd7v5dep.apps.googleusercontent.com
+
+web:
+  app_id: 1:958119526423:web:3abefd9438729f2c4f9c52
+  api_key: AIzaSyANF1W-8WwWoS8L5CFlCLY8KaZV1A2xkmw
+  client_id: 958119526423-iaib3vo8fet1s830fisst4g5nd7v5dep.apps.googleusercontent.com
+  measurement_id: G-KFTS2799LM
+
+linux:
+  api_key: AIzaSyANF1W-8WwWoS8L5CFlCLY8KaZV1A2xkmw
+  client_id: 958119526423-iaib3vo8fet1s830fisst4g5nd7v5dep.apps.googleusercontent.com
+
+macos:
+  app_id: 1:958119526423:macos:3abefd9438729f2c4f9c52
+  api_key: AIzaSyANF1W-8WwWoS8L5CFlCLY8KaZV1A2xkmw
+  client_id: 958119526423-iaib3vo8fet1s830fisst4g5nd7v5dep.apps.googleusercontent.com
+
+windows:
+  app_id: 1:958119526423:windows:3abefd9438729f2c4f9c52
+  api_key: AIzaSyANF1W-8WwWoS8L5CFlCLY8KaZV1A2xkmw
+  client_id: 958119526423-iaib3vo8fet1s830fisst4g5nd7v5dep.apps.googleusercontent.com

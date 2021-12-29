@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "958119526423",
+    "firebase_url": "https://elib-3f3a5.firebaseio.com",
+    "project_id": "elib-3f3a5",
+    "storage_bucket": "elib-3f3a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958119526423:android:3abefd9438729f2c4f9c52",
+        "android_client_info": {
+          "package_name": "com.megatonmedia.elib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958119526423-iaib3vo8fet1s830fisst4g5nd7v5dep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANF1W-8WwWoS8L5CFlCLY8KaZV1A2xkmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958119526423-iaib3vo8fet1s830fisst4g5nd7v5dep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
